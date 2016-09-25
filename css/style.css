@@ -1,0 +1,106 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: black;
+}
+
+nav{
+	height:64px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #eceff1;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+	
+}
+
+@media only screen and (max-width : 600px) {
+  
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#index-banner{
+	height:93vh;
+}
+
+.section{
+	width:100%;
+}
+
+.endereco{
+	padding-left:3em;
+}
+
+.edu-titulo{
+	padding-top:0.3em;
+	font-size:1.5em;
+}
+
+.facebook, .twitter, .linkedin, .instagram, .vimeo, .google-plus{
+	color:black;
+	transition:all .5s;
+}
+
+.facebook:hover{
+	color:#3b5998;
+	transition:all .25s;
+}
+.twitter:hover{
+	color:#1da1f2;
+	transition:all .25s;
+
+}
+.linkedin:hover{
+	color:#287bbc;
+	transition:all .25s;
+
+}
+.instagram:hover{
+	color: white;
+	transition:all .25s;
+}
+.vimeo:hover{
+	color:#4bf;
+	transition:all .25s;
+}
+.google-plus:hover{
+	color:#db4437;
+	transition:all .25s;
+}
+.a-q:hover{
+	font:bold;
+	font-style:italic;
+}
