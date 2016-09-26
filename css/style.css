@@ -70,6 +70,11 @@ footer.page-footer {
 }
 
 .facebook, .twitter, .linkedin, .instagram, .vimeo, .google-plus{
+	color:white;
+	transition:all .5s;
+}
+
+.github, .onedrive{
 	color:black;
 	transition:all .5s;
 }
@@ -89,7 +94,7 @@ footer.page-footer {
 
 }
 .instagram:hover{
-	color: white;
+	color: black;
 	transition:all .25s;
 }
 .vimeo:hover{
@@ -100,7 +105,35 @@ footer.page-footer {
 	color:#db4437;
 	transition:all .25s;
 }
+.github:hover{
+	color:#4078c0;
+	transition:all .25s;
+}
+
+.onedrive:hover{
+	color:#0078d7;
+	transition:all .25s;
+}
+
 .a-q:hover{
 	font:bold;
 	font-style:italic;
+}
+
+.justificado-sem-padding{
+	text-align:justify;
+	padding-top:0px !important;
+}
+
+
+#portfolio, #educacao, #experiencia{
+	min-height:95vh;
+}
+
+#contato{
+	height:75.5vh;
+}
+
+small.right{
+	text-align:right;
 }
