@@ -34,11 +34,16 @@ p {
   }
 
 @media only screen and (max-width : 992px) {
-	
+	.nome{
+		font-size:7vw !important;
+	}
+	.developer{
+		font-size:3.5vw !important;
+	}
 }
 
 @media only screen and (max-width : 600px) {
-  
+	
 }
 
 .icon-block {
@@ -131,9 +136,24 @@ footer.page-footer {
 }
 
 #contato{
-	height:75.5vh;
+	min-height:75.5vh;
 }
 
 small.right{
 	text-align:right;
+}
+
+.row.form{
+	margin-bottom:0;
+}
+
+.nome{
+	font-weight:200;
+	font-size:5vw;
+}
+
+.developer{
+	font-size:2.5vw;
+	font-style:italic;
+	font-weight:lighter;
 }
