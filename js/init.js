@@ -13,6 +13,8 @@
       accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
     });
 	
+    $('.tooltipped').tooltip({delay: 25});
+  	
 	
 	$('#form_contato').on('submit',(function(e) {
 		$('#enviar').attr('disabled', true);
@@ -50,6 +52,8 @@
 		});	
 		
 	}));
+	
+	
 	
   }); // end of document ready
 })(jQuery); // end of jQuery name space

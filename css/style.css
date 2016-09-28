@@ -79,12 +79,12 @@ footer.page-footer {
 	transition:all .5s;
 }
 
-.github, .onedrive{
+.github, .onedrive, .nxstep, .facebook-pessoa{
 	color:black;
 	transition:all .5s;
 }
 
-.facebook:hover{
+.facebook:hover, .facebook-pessoa:hover{
 	color:#3b5998;
 	transition:all .25s;
 }
@@ -117,6 +117,11 @@ footer.page-footer {
 
 .onedrive:hover{
 	color:#0078d7;
+	transition:all .25s;
+}
+
+.nxstep:hover{
+	color:#C2E932;
 	transition:all .25s;
 }
 
